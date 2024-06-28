@@ -14,14 +14,15 @@ public class AdminMain {
         int choiceInt = Integer.parseInt(choice);
 
         switch (choiceInt) {
+                //1 -> Show Menu.
             case 1:
                 menu.show();
                 break;
-        
+                // 2 -> Show Additions.
             case 2:
                 additions.show();
                 break;
-                
+                // 3 -> Edit Menu.
             case 3:
                 while (true) {
                     System.out.println("New Sandwich ");
@@ -42,7 +43,7 @@ public class AdminMain {
                     }
                 }
                 break;
-                
+                // 4 -> Edit Additions.
             case 4:
                 while (true) {
                     System.out.println("New Addition ");
